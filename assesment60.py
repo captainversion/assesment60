@@ -1,7 +1,7 @@
 import json
 
 class Employee:
-    def _init_(self, name, dob, height, city, state):
+    def __init__(self, name, dob, height, city, state):
         self.name = name
         self.dob = dob
         self.height = height
